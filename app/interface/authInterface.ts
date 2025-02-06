@@ -12,4 +12,4 @@ export interface AuthInterface {
 // Where you use req.user then use it
 export interface AuthenticatedRequest extends Request {
     user?: any; // You can replace `any` with a specific type if needed
-}
+} 

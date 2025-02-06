@@ -24,3 +24,5 @@ After doing this there will be create a file tsconfig.json. Replace tsconfig.jso
 
 11) You have to install two depency normal js dependency and devdependency for typescript 
 suppose I use jsonwebtoken then I have to use #npm i jsonwebtoken and #npm i @types/jsonwebtoken --save-dev 
+
+12) Start typescript app npm run dev

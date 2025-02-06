@@ -129,9 +129,9 @@ class apiController {
                     console.log("File does not exist:", imagePath);
                 }
             }
-            const deletedtourist = await ProductModel.findByIdAndDelete(id);
-            res.status(deletedtourist ? 200 : 404).json(
-                deletedtourist ? { message: "Product deleted successfully" } : { message: "Product not found" }
+            const deletedproduct = await ProductModel.findByIdAndDelete(id);
+            res.status(deletedproduct ? 200 : 404).json(
+                deletedproduct ? { message: "Product deleted successfully" } : { message: "Product not found" }
             );
         } catch (error) {
             console.error(error);
